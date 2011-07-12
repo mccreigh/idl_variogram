@@ -3,6 +3,8 @@ but.... people are asking for it and if people are using it, let's improve it.
 
 **NOT GURANTEED TO WORK IN 3-D** ... but it might ... developing ...
 
+note that you should have this in your startup file so you can take advantage of multithreading of histogram on multicore machines: IDL_CPU_TPOOL_NTHREADS=your number here. It typically wont use this full number, maybe half of it, but it should still give a speed up.
+
 Please notify me of any issues/errors via the issues feature in github. This way they can be documented for all to see.
 
 Sadly, I'm probably not going to work on this code because it's in IDL. So if you'd like to manage improving this code, you can fork it and then manage the official branch. If this interest you, let me know.
